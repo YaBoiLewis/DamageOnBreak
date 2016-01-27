@@ -1,0 +1,6 @@
+name: DamageOnBreak
+version: "1.0"
+api: [1.12.0]
+author: SavionLegendZzz
+main: DOB\Main
+description: Attack players when they break blocks when they are not allowed to!
