@@ -29,6 +29,6 @@ class Main extends PluginBase implements Listener{
 	}
 	
 	public function onDisable(){
-		$this->getLogger()->info(TF::RED."Disabling.....")
+		$this->getLogger()->info(TF::RED."Disabling.....");
 	}
 }
