@@ -7,7 +7,7 @@ use pocketmine\Server;
 use pocketmine\event\block\BlockBreakEvent;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
-use pocketmine\utlis\TextFormat;
+use pocketmine\utils\TextFormat;
 use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener{
