@@ -1,2 +1,2 @@
 # DamageOnBreak
-Attack a player when they break a block!
+Attack players when they break blocks when they are not allowed to!
