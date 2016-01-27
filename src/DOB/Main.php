@@ -19,7 +19,7 @@ class Main extends PluginBase implements Listener{
 		$this->config = new Config($this->getDataFolder()."config.yml", Config::YAML, array("Damage" => 1.5));
 	}
 	
-	public fucntion onBreak(BlockBreakEvent $ev){
+	public function onBreak(BlockBreakEvent $ev){
 		$player = $ev->getPlayer();
 		$cfg = $this->config->getAll();
 		if($ev->isCancelled()){
